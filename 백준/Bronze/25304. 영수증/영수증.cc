@@ -7,7 +7,7 @@ int main() {
     int N;
     int sum = 0;
     cin >> X >> N;
-    vector<vector<int>>array(N, vector<int>(N * 2));;
+    vector<vector<int>> array(N, vector<int>(2));
 
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < 2; j++) {
